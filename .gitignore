@@ -1,0 +1,27 @@
+# Pastas de build
+bin/
+obj/
+
+# Configuração do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de log
+*.log
+
+# Configurações locais e segredos
+appsettings.Local.json
+secrets.json
+
+# Dependências externas
+node_modules/
+packages/
+
+# Testes e artefatos de build
+TestResults/
+artifacts/
+
+appsettings.json

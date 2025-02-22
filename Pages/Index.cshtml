@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="mb-3">
+    <label for="formFileMultiple" class="form-label">Input de Múltiplos arquivos</label>
+    <input class="form-control" type="file" id="formFileMultiple" multiple>
+</div>
+
+<table class="table table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome do Arquivo</th>
+            <th class="text-center" scope="col">Deletar</th>
+            <th class="text-center" scope="col">Baixar</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
+<script src="~/lib/bootstrap/dist/js/fileinput.js"></script>

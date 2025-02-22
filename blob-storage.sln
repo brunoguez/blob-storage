@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blob-storage", "blob-storage.csproj", "{D9035EE6-E160-4263-8F2B-BF3961F7A441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9035EE6-E160-4263-8F2B-BF3961F7A441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9035EE6-E160-4263-8F2B-BF3961F7A441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9035EE6-E160-4263-8F2B-BF3961F7A441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9035EE6-E160-4263-8F2B-BF3961F7A441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAD1A8CA-297E-4939-A569-F85366A87A84}
+	EndGlobalSection
+EndGlobal
